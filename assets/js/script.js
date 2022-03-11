@@ -24,10 +24,10 @@ function generatePassword () {
     return '';
   } else {
     // prompt for password criteria
-    lowerCase = window.confirm("Click 'OK' to add lowercase letters to your password");
-    upperCase = window.confirm("Click 'OK' to add uppercase letters to your password");
-    numbers = window.confirm("Click 'OK' to add numbers to your password");
-    special = window.confirm("Click 'OK' to add special characters to your password");
+    lowerCase = window.confirm("Click 'OK' to add lowercase letters to your password or 'Cancel' to skip.");
+    upperCase = window.confirm("Click 'OK' to add uppercase letters to your password or 'Cancel' to skip.");
+    numbers = window.confirm("Click 'OK' to add numbers to your password or 'Cancel' to skip.");
+    special = window.confirm("Click 'OK' to add special characters to your password or 'Cancel' to skip.");
   }
 
   if (!lowerCase && !upperCase && !numbers && !special) {
