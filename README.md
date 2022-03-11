@@ -24,4 +24,5 @@ THEN a password is generated that matches the selected criteria<br>
 WHEN the password is generated<br>
 THEN the password is either displayed in an alert or written to the page<br>
 
-  <img width="445" alt="PW Screenshot" src="https://user-images.githubusercontent.com/99158580/157808546-722ced9e-ddea-4eab-8265-824baddabf82.png">
+  
+<p><p><img width="445" alt="PW Screenshot" src="https://user-images.githubusercontent.com/99158580/157808546-722ced9e-ddea-4eab-8265-824baddabf82.png">
